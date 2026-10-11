@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+    <a href="#projects">Projects</a>
+</nav>
+    <section id="home" class="hero">
+    <h1>Hi, I'm Bhavani K</h1>
+
+    <h2>Java Full Stack Developer Trainee</h2>
+
+    <p>
+        I am a B.Sc. Computer Science graduate
+        passionate about learning Java and web technologies.
+        I am looking forward to starting my career in the IT industry.
+    </p>
+
+    <a href="#about" class="btn">About Me</a>
+
+    <button onclick="showMessage()" class="btn">
+    Say Hello
+</button>
+</section>
+
+
+    <section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a B.Sc. Computer Science graduate.
+        I am currently learning Java Full Stack Development.
+        I am interested in building my career in the IT industry.
+    </p>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <p>B.Sc. Computer Science</p>
+    <p>SRM Arts and Science College</p>
+    <p>Graduation Year: 2025</p>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Mentor Connect</h3>
+            <p>
+                A web-based mentorship platform designed
+                to improve communication between students
+                and mentors and support student progress tracking.
+            </p>
+            <p><strong>Technologies:</strong> PHP, MySQL</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                A personal website showcasing my education,
+                technical skills, projects, and contact details.
+            </p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+
+    <button onclick="toggleSkills()" class="btn" id="skillsButton">
+    Hide Skills
+</button>
+
+    <div class="skills-container" id="skillsList">
+        <div class="skill-card">Core Java</div>
+        <div class="skill-card">SQL</div>
+        <div class="skill-card">JDBC</div>
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <p>If you would like to connect with me, feel free to contact me.</p>
+
+    <a href="mailto:bhavanisaraswathy1008@gmail.com" class="btn">
+        Email Me
+    </a>
+
+    <a href="https://www.linkedin.com/in/bhavani-k-26a38b320" 
+       target="_blank" 
+       class="btn">
+        LinkedIn
+    </a>
+</section>
+<script src="./script.js"></script>
+</body>
+
+<footer>
+    <p>&copy; 2026 Bhavani K. All Rights Reserved.</p>
+    <p>Personal Portfolio Website</p>
+</footer>
+
+</html>
